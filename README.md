@@ -36,6 +36,11 @@ A simple calculator implementation in Python with both command-line and graphica
    pip install -r requirements.txt
    ```
 
+3. **Install Pytest (if not using requirements.txt)**
+   ```bash
+   pip install pytest pytest-cov
+   ```
+
 ### Deactivating Virtual Environment
 When you're done working on the project:
 ```bash
@@ -119,7 +124,7 @@ pytest -v
 # With print statements
 pytest -v -s
 
-# With coverage report
+# With coverage reportven  
 pytest --cov=calculator
 ```
 
