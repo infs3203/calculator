@@ -1,6 +1,6 @@
 # Calculator Project
 
-A simple calculator implementation in Python with both command-line and graphical interfaces, plus three different testing approaches.
+A simple calculator implementation in Python with three different testing approaches.
 
 ## Project Structure
 
@@ -50,6 +50,10 @@ deactivate
 ## Usage
 
 ### Command Line Interface
+   ```bash
+   python calculator.py
+   ```
+
 ```python
 from calculator import Calculator
 
@@ -66,20 +70,6 @@ result5 = calc.modulo(7, 3)     # Returns 1
 result6 = calc.power(2, 3)      # Returns 8
 result7 = calc.square_root(9)   # Returns 3.0
 ```
-
-### Graphical User Interface
-Run the calculator GUI:
-```bash
-python calculator_gui.py
-```
-
-The GUI calculator features:
-- Graphical User Interface
-- Numeric keypad (0-9)
-- Basic operations (+, -, *, /)
-- Advanced operations (√, ^)
-- Control buttons (C, ←, =)
-
 
 ## Testing Approaches
 
@@ -127,8 +117,6 @@ pytest -v -s
 # With coverage reportven  
 pytest --cov=calculator
 ```
-
-Note: The `conftest.py` in the tests directory automatically handles Python path configuration for pytest. You don't need to set PYTHONPATH when using pytest.
 
 ## Features
 
