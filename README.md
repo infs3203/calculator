@@ -1,4 +1,4 @@
-# Calculator Project
+# Calculator Project - Demonstration
 
 A simple calculator implementation in Python with three different testing approaches.
 
