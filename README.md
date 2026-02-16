@@ -3,7 +3,6 @@
 A simple calculator implementation in Python with three different testing approaches.
 
 ## Project Structure
-
 ```
 .
 ├── calculator.py                  # Main calculator implementation
